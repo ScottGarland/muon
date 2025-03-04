@@ -15,7 +15,7 @@ def exp_decay(t, N0, tau, B):
 def plot(N0, tau, B):
 
     fig, ax = plt.subplots()
-    plt.title('Cosmic-Ray Muon Decay in Scintillator')
+    plt.title('Cosmic-ray Muon Decay in a Scintillator')
     plt.xlabel('t (μs)')
     plt.ylabel('N(t)')
     plt.xlim([0,35])
